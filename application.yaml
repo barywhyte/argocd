@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/barywhyte/argocd.git
     targetRevision: HEAD
-    path: dev
+    path: argocd-pipe
   destination:
     server: https://kubernetes.default.svc
     namespace: argo-app
