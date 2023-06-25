@@ -55,7 +55,7 @@ resource "aws_elasticsearch_domain" "elasticsearch_cluster" {
       "Effect": "Allow",
       "Principal": "*",
       "Action": "es:*",
-      "Resource": "arn:aws:es:us-east-1:558855373261:domain/${local.resource_name}/*"
+      "Resource": "arn:aws:es:us-east-1:55*********:domain/${local.resource_name}/*"
     }
   ]
 }
